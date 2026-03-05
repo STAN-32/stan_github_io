@@ -1,8 +1,0 @@
-.container {
-  /* existing styles */
-}
-
-.container > *:last-child {
-  margin-bottom: 2rem;
-}
-
