@@ -1,0 +1,36 @@
+.visitor-map h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.visitor-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 590px;
+  width: 100%;
+}
+
+.visitor-map img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide Clustrmaps branding */
+#clustrmaps-widget > a {
+  display: none !important;
+}
+
+/* Ensure the globe is responsive */
+#clustrmaps-widget canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* Remove unused styles */
+.map-container,
+.mock-map,
+.country-list {
+  display: none;
+}
