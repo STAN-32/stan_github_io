@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './VisitorMap.css';
 
 const VisitorMap = () => {
+  useEffect(() => {
+    const container = document.getElementById('clustrmaps-widget');
+    if (!container) return;
+
+    container.innerHTML = '';
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'clstr_globe';
+    script.src =
+      'https://clustrmaps.com/globe.js?d=1-apcJaW_PAd_0Sw4pQw2NOQ05EYEunPmJO7dTTtkn0';
+    container.appendChild(script);
+  }, []);
+
   return (
     <div className="visitor-map">
-      <a href="https://clustrmaps.com/site/1c1sl" title="Visit tracker">
-        <img
-          src="//cdn.clustrmaps.com/map_v2.png?cl=ffffff&w=500&t=tt&d=VeqnpzLlKW-Ot5DN3F-Amu4pFn2pWHIYPqjUluz5gTI"
-          alt="Visitor Map"
-        />
-      </a>
+      <div id="clustrmaps-widget" />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import './Container.css';
 import Landing from "../Landing/Landing";
 import About from "../About/About";
 import News from "../News/News";
+import ResearchExperience from "../ResearchExperience/ResearchExperience";
 import Awards from "../Awards/Awards";
 import Publications from "../Publications/Publications";
 import FeaturedPublications from "../FeaturedPublications/FeaturedPublications";
@@ -15,6 +16,7 @@ const Container = () => {
             <Landing />
             <About />
             <News />
+            <ResearchExperience />
             <Awards />
             <FeaturedPublications />
             <Publications />

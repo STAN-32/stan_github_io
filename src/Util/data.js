@@ -5,10 +5,8 @@ import chensafe23 from '../assets/chensafe23.gif';
 import shu23two from '../assets/shu23two.avif';
 import zhan23multi from '../assets/zhan23multi.avif';
 import jia2022hierarchical from '../assets/jia2022hierarchical.avif';
-import soccer_img from '../assets/soccer.jpg';
-// import soccer2_img from '../assets/soccer2.jpg';
 
-export const FULL_NAME = "Yu Chen";
+export const FULL_NAME = "Yu Chen/陈煜/Stan Chen";
 export const RESUME_LINK = "https://Andrewzh112.github.io/resume/resume.pdf";
 export const FOOTER_TEXT = {
     text: "The web is heavily inspired by ",
@@ -73,6 +71,21 @@ export const AWARDS = [
     {
         date: "Jul 2020",
         content: "National First Prize, 2020 ABU Robocon 'Robotic Equestrian Simulation Contest'",
+    },
+];
+
+export const RESEARCH_EXPERIENCE = [
+    {
+        date: "12/2025 - 06/2026",
+        content: "<strong>Personal Robotics Lab (PRL), Imperial College London</strong><br>Advisor: Prof. Yiannis Demiris",
+    },
+    {
+        date: "12/2024",
+        content: "<strong>Biorobotics Lab, National University of Singapore</strong><br>Advisor: Prof. Haoyong Yu",
+    },
+    {
+        date: "09/2022 - Present",
+        content: "<strong>IRM Lab, Department of Automation, Tsinghua University</strong><br>Advisor: Prof. Xiang Li",
     },
 ];
 
