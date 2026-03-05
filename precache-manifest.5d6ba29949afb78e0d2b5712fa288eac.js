@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15e30209eac0d079e0f7fab74e4afd0e",
+    "revision": "85758fe15cbc2b016bf19c656c9dd356",
     "url": "/stan_github_io/index.html"
   },
   {
-    "revision": "b27de85b6ae8cebe172f",
-    "url": "/stan_github_io/static/css/main.4ba804de.chunk.css"
+    "revision": "59e3caecbb23e123f9b2",
+    "url": "/stan_github_io/static/css/main.eb183013.chunk.css"
   },
   {
     "revision": "cea253b608df74e08a76",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b27de85b6ae8cebe172f",
-    "url": "/stan_github_io/static/js/main.9501910b.chunk.js"
+    "revision": "59e3caecbb23e123f9b2",
+    "url": "/stan_github_io/static/js/main.22299d5c.chunk.js"
   },
   {
     "revision": "e2cf74821789ed7d3f0e",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60884b80da2186bc319b837383c60c3e",
     "url": "/stan_github_io/static/media/shu23two.60884b80.avif"
-  },
-  {
-    "revision": "d4a250d1543618b48e7830ac31a24772",
-    "url": "/stan_github_io/static/media/soccer.d4a250d1.jpg"
   },
   {
     "revision": "651c8c97309eab1d4af09c3fe7528d2a",
