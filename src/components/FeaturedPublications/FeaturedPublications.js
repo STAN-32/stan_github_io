@@ -3,9 +3,9 @@ import './FeaturedPublications.css';
 import { FEATUREDPUBLICATIONS } from '../../Util/data';
 
 const formatDate = (dateString) => {
-  const options = { year: 'numeric', month: 'short' };
-  const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', options);
+  const date = new Date(`${dateString} 1`);
+  if (Number.isNaN(date.getTime())) return dateString;
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
 };
 
 const highlightText = (text) => {
@@ -26,7 +26,7 @@ const highlightText = (text) => {
 
 const formatAuthors = (authors) => {
   return authors.split(', ').map((author, index, array) => {
-      const isBold = author.includes("Yang Yue");
+      const isBold = author.includes("Yu Chen");
       const needsComma = index !== array.length - 1;
 
       return (

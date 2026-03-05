@@ -2,9 +2,9 @@ import React from "react";
 import './Landing.css';
 // import focus from '../../img/focus.png'; // Default image
 // import focus2 from '../../img/focus2.png'; // Hover image
-import focus from '../../img/person.jpeg'; // Default image
-import focus2 from '../../img/person2.jpg'; // Default image
-import focus3 from '../../img/person3.jpg'; // Default image
+import focus from '../../img/person.png'; // Default image
+import focus2 from '../../img/person2.jpg'; // Hover image
+
 
 import { FULL_NAME, SOCIAL_LINKS } from '../../Util/data';
 
@@ -16,7 +16,7 @@ const Landing = () => {
         <section id="landing" className="landing">
             <div className="text-content">
                 <h1>{FULL_NAME}</h1>
-                <h4 className="subtitle">PhD Student @ Tsinghua University</h4>
+                <h4 className="subtitle">PhD Candidate @ Tsinghua University</h4>
                 <div className="social-links-container">
                     <div className="email-link">
                         <i className="far fa-lg fa-envelope"></i>
@@ -41,9 +41,8 @@ const Landing = () => {
                 </div>
             </div>
             <div className="image-container">
-                <img src={focus} alt="Yang Yue" className="default-image" />
-                {/* <img src={focus2} alt="Yang Yue Hover" className="hover-image" /> */}
-                <img src={focus3} alt="Yang Yue Hover" className="hover-image" />
+                <img src={focus} alt="Yu Chen" className="default-image" />
+                <img src={focus2} alt="Yu Chen Hover" className="hover-image" />
             </div>
         </section>
     );

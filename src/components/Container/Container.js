@@ -3,10 +3,10 @@ import './Container.css';
 import Landing from "../Landing/Landing";
 import About from "../About/About";
 import News from "../News/News";
+import Awards from "../Awards/Awards";
 import Publications from "../Publications/Publications";
 import FeaturedPublications from "../FeaturedPublications/FeaturedPublications";
 import Services from '../Services/Services';
-import Life from '../Life/Life';
 import VisitorMap from '../VisitorMap/VisitorMap';
 
 const Container = () => {
@@ -15,10 +15,10 @@ const Container = () => {
             <Landing />
             <About />
             <News />
+            <Awards />
             <FeaturedPublications />
             <Publications />
             <Services />
-            <Life />
             <VisitorMap />
         </div>
     );

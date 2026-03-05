@@ -1,15 +1,14 @@
-import deer from '../assets/deer.jpg';
-import seem from '../assets/seem.png';
-import law from '../assets/physical_law.jpg';
-import surgery from '../assets/surgery.jpg';
-import vcr from '../assets/vcr.jpg';
-import benchmark from '../assets/benchmark.jpg';
-import red from '../assets/red.jpg';
-import odpr from '../assets/odpr.jpg';
+import chen2026semantic from '../assets/chen2026semantic.gif';
+import chen2025upper from '../assets/chen2025upper.gif';
+import chen23HIL from '../assets/chen23HIL.gif';
+import chensafe23 from '../assets/chensafe23.gif';
+import shu23two from '../assets/shu23two.avif';
+import zhan23multi from '../assets/zhan23multi.avif';
+import jia2022hierarchical from '../assets/jia2022hierarchical.avif';
 import soccer_img from '../assets/soccer.jpg';
 // import soccer2_img from '../assets/soccer2.jpg';
 
-export const FULL_NAME = "Yang Yue 乐洋";
+export const FULL_NAME = "Yu Chen";
 export const RESUME_LINK = "https://Andrewzh112.github.io/resume/resume.pdf";
 export const FOOTER_TEXT = {
     text: "The web is heavily inspired by ",
@@ -20,202 +19,182 @@ export const SOCIAL_LINKS = [
     {
         name: "Email",
         icon: "far fa-lg fa-envelope",
-        link: "mailto:le-y22@mails.tsinghua.edu.cn",
-        text: "le-y22@mails.tsinghua.edu.cn",
-        showText: true
-    },
-    {
-        name: "Email",
-        icon: "far fa-lg fa-envelope",
-        link: "mailto:yueyang22f@gmail.com",
-        text: "yueyang22f@gmail.com",
+        link: "mailto:chen-y22@mails.tsinghua.edu.cn",
+        text: "chen-y22@mails.tsinghua.edu.cn",
         showText: true
     },
     {
         name: "Google Scholar",
         icon: "fas fa-graduation-cap",
-        link: "https://scholar.google.com/citations?user=tE1oVQ4AAAAJ&hl=zh",
+        link: "https://scholar.google.com/citations?user=8ySqPzwAAAAJ&hl=zh-CN",
         showText: false
     },
     {
         name: "Github",
         icon: "fab fa-lg fa-github",
-        link: "https://github.com/yueyang130",
-        showText: false
-    },
-    {
-        name: "Twitter",
-        icon: "fab fa-lg fa-twitter",
-        link: "https://x.com/YangYue_THU",
+        link: "https://github.com/STAN-32?tab=repositories",
         showText: false
     },
 ];
 
+export const AWARDS = [
+    {
+        date: "Dec 2025",
+        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology.(<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
+    },
+    {
+        date: "Dec 2025",
+        content: "Basic Research Program for Young Students (PhD Candidate) of the National Natural Science Foundation of China. (<span style=\"color: red; font-weight: bold;\">国自然</span>博士生专项)",
+    },
+    {
+        date: "2024 - 2025",
+        content: "Tsinghua University Comprehensive Excellence Scholarship (2 times)",
+    },
+    {
+        date: "Jun 2023",
+        content: "IEEE Virtual Manipulation Challenge. <span style=\"color: red; font-weight: bold;\">2nd</span> Prize Winner",
+    },
+    {
+        date: "2018 - 2022",
+        content: "Excellent Student Scholarship (5 times)",
+    },
+    {
+        date: "Nov 2021",
+        content: "Qimin Scholarship (<span style=\"color: red; font-weight: bold;\">Top 2%</span> in Harbin Institute of Technology)",
+    },
+    {
+        date: "Dec 2020",
+        content: "China National Scholarship (<span style=\"color: red; font-weight: bold;\">Top 2%</span> in Harbin Institute of Technology)",
+    },
+    {
+        date: "Oct 2020",
+        content: "National First Prize, 2020 ABU Robocon 'Robo Rugby' (National <span style=\"color: red; font-weight: bold;\">third</span> place)",
+    },
+    {
+        date: "Jul 2020",
+        content: "National First Prize, 2020 ABU Robocon 'Robotic Equestrian Simulation Contest'",
+    },
+];
+
+
 export const NEWS = [
     {
-        date: "Oct 2024",
-        content: "Awarded the National Scholarship. (国家奖学金, <span style=\"color: red; font-weight: bold;\">Top 2%</span> in Tsinghua University)",
+        date: "Dec 2025",
+        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology.(<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
 ];
 
 export const FEATUREDPUBLICATIONS = [
     {
         id: 1,
-        name: "HOW FAR IS VIDEO GENERATION FROM WORLD MODEL: A PHYSICAL LAW PERSPECTIVE",
-        journal: "arXiv Preprint",
-        date: "Oct 2024",
-        authors: "Bingyi Kang*, Yang Yue* (Equal Contribution in alphabetical order), Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, Jiashi Feng ",
-        image: law, // Optional
-        // link: "https://openreview.net/forum?id=ZyLkNVHBZF",
-        // code: "https://github.com/LeapLabTHU/MOSS", // Optional
-        // projectPage: "https://example.com/projects/project1" // Optional
+        name: "A Semantic-Aware Framework for Safe and Intent-Integrative Assistance in Upper-Limb Exoskeletons",
+        journal: "IEEE Robotics and Automation Letters",
+        date: "Mar 2026",
+        authors: "Yu Chen, Shu Miao, Chunyu Wu, Jingsong Mu, Bo OuYang, Xiang Li",
+        image: chen2026semantic,
+        link: "https://scholar.google.com/citations?user=8ySqPzwAAAAJ&hl=zh-CN",
     },
     {
-        name: "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
-        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        id: 2,
+        name: "Upper-limb rehabilitation with a dual-mode individualized exoskeleton robot: A generative-model-based solution",
+        journal: "The International Journal of Robotics Research",
+        date: "Jan 2025",
+        authors: "Yu Chen, Shu Miao, Jing Ye, Gong Chen, Jianghua Cheng, Ketao Du, Xiang Li",
+        image: chen2025upper,
+        link: "https://doi.org/10.1177/02783649251333479",
+    },
+    {
+        id: 3,
+        name: "Learning to Assist Different Wearers in Multitasks: Efficient and Individualized Human-in-the-Loop Adaptation Framework for Lower-Limb Exoskeleton",
+        journal: "IEEE Transactions on Robotics, 40:4699-4718",
         date: "Sep 2024",
-        authors: "Yang Yue*, Yulin Wang*, Bingyi Kang, Yizeng Han, Shenzhi Wang, Shiji Song, Jiashi Feng, Gao Huang",
-        image: deer,
-        code: "https://github.com/yueyang130/DeeR-VLA",
-        // projectPage: "https://andrewzh112.github.io/#expel"
+        authors: "Yu Chen, Shu Miao, Gong Chen, Jing Ye, Chenglong Fu, Bin Liang, Shiji Song, Xiang Li",
+        image: chen23HIL,
+        link: "https://ieeexplore.ieee.org/abstract/document/10695031",
     },
-    {
-        name: "Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL",
-        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2023",
-        date: "Sep 2023",
-        authors: "Yang Yue*, Rui Lu*, Bingyi Kang*, Shiji Song, Gao Huang",
-        image: seem,
-        link: "https://arxiv.org/abs/2310.04411",
-        code: "https://github.com/yueyang130/SEEM/",
-        projectPage: "https://offrl-seem.github.io/"
-    },
-    {
-        name: "Value-consistent Representation Learning for Data-Efficient Reinforcement Learning",
-        journal: "hirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2023) (Oral)",
-        date: "Jun 2022",
-        authors: "Yang Yue, Bingyi Kang, Zhongwen Xu, Gao Huang, Shuicheng Yan",
-        image: vcr,
-        link: "https://arxiv.org/abs/2206.12542",
-    },
-]
+];
 
 export const PUBLICATIONS = [
     {
         id: 1,
-        name: "HOW FAR IS VIDEO GENERATION FROM WORLD MODEL: A PHYSICAL LAW PERSPECTIVE",
-        journal: "arXiv Preprint",
-        date: "Oct 2024",
-        authors: "Bingyi Kang*, Yang Yue* (Equal Contribution in alphabetical order), Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, Jiashi Feng ",
-        image: law, // Optional
-        // link: "https://openreview.net/forum?id=ZyLkNVHBZF",
-        // code: "https://github.com/LeapLabTHU/MOSS", // Optional
-        // projectPage: "https://example.com/projects/project1" // Optional
+        name: "A Semantic-Aware Framework for Safe and Intent-Integrative Assistance in Upper-Limb Exoskeletons",
+        journal: "IEEE Robotics and Automation Letters",
+        date: "Mar 2026",
+        authors: "Yu Chen, Shu Miao, Chunyu Wu, Jingsong Mu, Bo OuYang, Xiang Li",
+        image: chen2026semantic,
+        link: "https://scholar.google.com/citations?user=8ySqPzwAAAAJ&hl=zh-CN",
     },
     {
-        name: "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
-        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        id: 2,
+        name: "Upper-limb rehabilitation with a dual-mode individualized exoskeleton robot: A generative-model-based solution",
+        journal: "The International Journal of Robotics Research",
+        date: "Jan 2025",
+        authors: "Yu Chen, Shu Miao, Jing Ye, Gong Chen, Jianghua Cheng, Ketao Du, Xiang Li",
+        image: chen2025upper,
+        link: "https://doi.org/10.1177/02783649251333479",
+    },
+    {
+        id: 3,
+        name: "Learning to Assist Different Wearers in Multitasks: Efficient and Individualized Human-in-the-Loop Adaptation Framework for Lower-Limb Exoskeleton",
+        journal: "IEEE Transactions on Robotics, 40:4699-4718",
         date: "Sep 2024",
-        authors: "Yang Yue*, Yulin Wang*, Bingyi Kang, Yizeng Han, Shenzhi Wang, Shiji Song, Jiashi Feng, Gao Huang",
-        image: deer,
-        code: "https://github.com/yueyang130/DeeR-VLA",
-        // projectPage: "https://andrewzh112.github.io/#expel"
+        authors: "Yu Chen, Shu Miao, Gong Chen, Jing Ye, Chenglong Fu, Bin Liang, Shiji Song, Xiang Li",
+        image: chen23HIL,
+        link: "https://ieeexplore.ieee.org/abstract/document/10695031",
     },
     {
-        name: "Model Surgery: Modulating LLM's Behavior Via Simple Parameter Editing",
-        journal: "arXiv Preprint",
-        date: "Jul 2024",
-        authors: "Huanqian Wang*, Yang Yue*, Rui Lu, Jingxin Shi, Andrew Zhao, Shenzhi Wang, Shiji Song, Gao Huang",
-        image: surgery,
-        link: "https://arxiv.org/pdf/2407.08770",
-        code: "https://github.com/lucywang720/model-surgery",
+        id: 4,
+        name: "Safe and Individualized Motion Planning for Upper-limb Exoskeleton Robots Using Human Demonstration and Interactive Learning",
+        journal: "2024 International Conference on Robotics and Automation (ICRA)",
+        date: "May 2024",
+        authors: "Yu Chen, Gong Chen, Jing Ye, Xiangjun Qiu, Xiang Li",
+        image: chensafe23,
+        link: "https://ieeexplore.ieee.org/abstract/document/10610552",
     },
     {
-        name: "Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL",
-        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2023",
-        date: "Sep 2023",
-        authors: "Yang Yue*, Rui Lu*, Bingyi Kang*, Shiji Song, Gao Huang",
-        image: seem,
-        link: "https://arxiv.org/abs/2310.04411",
-        code: "https://github.com/yueyang130/SEEM/",
-        projectPage: "https://offrl-seem.github.io/"
+        id: 5,
+        name: "Two-Stage Trajectory-Tracking Control of Cable-Driven Upper-Limb Exoskeleton Robots with Series Elastic Actuators: A Simple, Accurate, and Force-Sensorless Method",
+        journal: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        date: "Oct 2023",
+        authors: "Yana Shu, Yu Chen, Xuan Zhang, Shisheng Zhang, Gong Chen, Jing Ye, Xiang Li",
+        image: shu23two,
+        link: "https://doi.org/10.1109/IROS55552.2023.10342056",
     },
     {
-        name: "Decoupled Prioritized Resampling for Offline RL",
-        journal: "arXiv Preprint",
-        date: "Jun 2023",
-        authors: "Yang Yue, Bingyi Kang, Xiao Ma, Qisen Yang, Gao Huang, Shiji Song, Shuicheng Yan",
-        image: odpr,
-        link: "https://arxiv.org/abs/2306.05412",
-        code: "https://github.com/yueyang130/ODPR",
+        id: 6,
+        name: "Multi-Modal Learning and Relaxation of Physical Conflict for an Exoskeleton Robot with Proprioceptive Perception",
+        journal: "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+        date: "May 2023",
+        authors: "Xuan Zhang, Yana Shu, Yu Chen, Gong Chen, Jing Ye, Xiu Li, Xiang Li",
+        image: zhan23multi,
+        link: "https://doi.org/10.1109/ICRA48891.2023.10161255",
     },
     {
-        name: "Improving and benchmarking offline reinforcement learning algorithms",
-        journal: "arXiv Preprint",
-        date: "Jun 2023",
-        authors: "Bingyi Kang, Xiao Ma, Yirui Wang, Yang Yue, Shuicheng Yan",
-        image: benchmark,
-        link: "https://arxiv.org/pdf/2306.00972",
-        code: "https://github.com/sail-sg/offbench",
-    },
-    {
-        name: "Boosting Offline Reinforcement Learning via Data Rebalancing",
-        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2022, Offline RL Workshop",
+        id: 7,
+        name: "Hierarchical Learning and Control for In-Hand Micromanipulation Using Multiple Laser-Driven Micro-Tools",
+        journal: "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
         date: "Oct 2022",
-        authors: "Yang Yue, Bingyi Kang, Xiao Ma, Zhongwen Xu, Gao Huang, Shuicheng Yan",
-        image: red,
-        link: "https://arxiv.org/pdf/2210.09241",
-    },
-    {
-        name: "Value-consistent Representation Learning for Data-Efficient Reinforcement Learning",
-        journal: "hirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2023) (Oral)",
-        date: "Jun 2022",
-        authors: "Yang Yue, Bingyi Kang, Zhongwen Xu, Gao Huang, Shuicheng Yan",
-        image: vcr,
-        link: "https://arxiv.org/abs/2206.12542",
+        authors: "Yongyi Jia, Yu Chen, Hao Liu, Xiu Li, Xiang Li",
+        image: jia2022hierarchical,
+        link: "https://ieeexplore.ieee.org/document/9982148",
     },
 ];
 
 export const SERVICES = [
     {
-        title: "Conference Reviewers",
-        description: "ICML 2023<br> NeurIPS 2023<br>NeurIPS 2024<br>",
-    },
-    {
-        title: "Value-Consistent Representation Learning for Data-Efficient Reinforcement Learning",
-        date: "February 2023",
-        venue: "AAAI 2023",
-        description: "Oral Presentation"
-    },
-    {
-        title: "Understanding Predicting and Better Resolving Value Divergence",
-        date: "January 2024",
-        venue: "ReadPaper Invited Talk",
-        // description: "Presented by Rui Lu, featuring collaborative work between both of us.",
-        // link: "https://www.bilibili.com/video/BV1LK411Y7Tc/?vd_source=75411458a4aa446f7fbc441211e20421#reply204791770480",
+        title: "Academic Service",
+        description: "Reviewer for IJRR, T-RO, T-ASE, RA-L, ...<br>Reviewer for ICRA, IROS, ...",
     },
 ];
 
 export const ABOUT_TEXT = `
-<p>I am a third-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>.
-I earned my bachelor's degree in Computer Science in 2022, and during my undergraduate years, I also studied Electrical Engineering.
-Previously, I interned at Sea AI Lab Singapore for over a year, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer'>Bingyi Kang</a>.</p>
-<p>My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
+<p>I am a fourth-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://thu-irml.com/' target='_blank' rel='noopener noreferrer'>Xiang Li</a>.
+I earned my bachelor's degree in Automation from the School of Astronautics, Harbin Institute of Technology, where I was part of the HIT Robotics Team (HITCRT) and won the national third place in the Robocon 2020.
+In December 2024, I was a visiting student in Prof. <a href='https://cde.nus.edu.sg/bme/staff/dr-yuhy/' target='_blank' rel='noopener noreferrer'>Haoyong Yu</a>'s research group at the National University of Singapore. 
+From 12/2025 to 06/2026, I will be a visiting student in the Personal Robotics Lab (PRL) at Imperial College London, under the supervision of Prof. <a href='https://profiles.imperial.ac.uk/y.demiris' target='_blank' rel='noopener noreferrer'>Yiannis Demiris</a>.
+<p>My research primarily focuses on the development of safe, efficient, and user-friendly human-robot collaborative systems. My interests include:</p>
 <ul>
-    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
-    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Multimodal LLMs</span> for generalized perception and advanced reasoning</li>
-    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">World Models</span> for planning and scalable data generation</li>
-    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Embodied AI</span> for real-world interactions and applications</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Lower-Limb Exoskeleton</span> Assist with different wearers and tasks</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Upper-Limb Exoskeleton</span> Personalized rehabilitation.</li>
 </ul>
 `
-
-export const LIFE_ACTIVITIES = [
-    {
-        id: 1,
-        name: "Soccer",
-        description: "I love soccer and play as a midfielder. I also serve as the captain of the men's football team for the Department of Automation.",
-        image: soccer_img,
-        // image: soccer2_img,
-        link: "https://mp.weixin.qq.com/s/BYEamDPgS9FkJTYyquDNXg"
-    },
-    // Add more life activities here
-];
