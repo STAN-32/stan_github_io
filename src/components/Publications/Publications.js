@@ -63,7 +63,7 @@ const Publications = () => {
                 <p style={{ fontStyle: 'italic' }}>{formatAuthors(pub.authors)}</p>
                 <div className="publication-links">
                   <a href={pub.link} rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa-file-alt"></i> {/* Icon for paper link */}
+                    [paper]
                   </a>
                   {pub.code && (
                     <a href={pub.code} rel="noopener noreferrer" target="_blank">

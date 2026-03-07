@@ -1,9 +1,8 @@
 /* News Section Styles */
-.news-section {
+.news-grid {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 10px;
 }
 
@@ -16,8 +15,10 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     padding: 15px;
     margin-bottom: 20px;
+    margin-left: 20px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(100% - 20px);
 }
 
 .news-item:hover {

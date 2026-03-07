@@ -149,7 +149,7 @@ export const PUBLICATIONS = [
     {
         id: 3,
         name: "Learning to Assist Different Wearers in Multitasks: Efficient and Individualized Human-in-the-Loop Adaptation Framework for Lower-Limb Exoskeleton",
-        journal: "IEEE Transactions on Robotics, 40:4699-4718",
+        journal: "IEEE Transactions on Robotics",
         date: "Sep 2024",
         authors: "Yu Chen, Shu Miao, Gong Chen, Jing Ye, Chenglong Fu, Bin Liang, Shiji Song, Xiang Li",
         image: chen23HIL,
@@ -187,7 +187,7 @@ export const PUBLICATIONS = [
         name: "Hierarchical Learning and Control for In-Hand Micromanipulation Using Multiple Laser-Driven Micro-Tools",
         journal: "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
         date: "Oct 2022",
-        authors: "Yongyi Jia, Yu Chen, Hao Liu, Xiu Li, Xiang Li",
+        authors: "Yongyi Jia*, Yu Chen* (Equal contribution), Hao Liu, Xiu Li, Xiang Li",
         image: jia2022hierarchical,
         link: "https://ieeexplore.ieee.org/document/9982148",
     },
