@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4811b90cabc0aaf7a18be9da15eb72de",
+    "revision": "10521e2334020fa7c304b9d188a37cb0",
     "url": "/stan_github_io/index.html"
   },
   {
-    "revision": "ee93f62b5e36588f568c",
-    "url": "/stan_github_io/static/css/main.f3af41ec.chunk.css"
+    "revision": "6d6ff88e5039ba0e60f3",
+    "url": "/stan_github_io/static/css/main.6e3fa35c.chunk.css"
   },
   {
     "revision": "cea253b608df74e08a76",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee93f62b5e36588f568c",
+    "revision": "6d6ff88e5039ba0e60f3",
     "url": "/stan_github_io/static/js/main.b7585a17.chunk.js"
   },
   {
