@@ -38,11 +38,11 @@ export const SOCIAL_LINKS = [
 export const AWARDS = [
     {
         date: "Dec 2025",
-        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology.(<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
+        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
     {
         date: "Dec 2025",
-        content: "Basic Research Program for Young Students (PhD Candidate) of the National Natural Science Foundation of China. (<span style=\"color: red; font-weight: bold;\">国自然</span>博士生专项)",
+        content: "Basic Research Program for Young Students (PhD Candidate) of the National Natural Science Foundation of China (<span style=\"color: red; font-weight: bold;\">国自然</span>博士生专项)",
     },
     {
         date: "2024 - 2025",
@@ -93,7 +93,7 @@ export const RESEARCH_EXPERIENCE = [
 export const NEWS = [
     {
         date: "Dec 2025",
-        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology.(<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
+        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
 ];
 
@@ -119,7 +119,7 @@ export const FEATUREDPUBLICATIONS = [
     {
         id: 3,
         name: "Learning to Assist Different Wearers in Multitasks: Efficient and Individualized Human-in-the-Loop Adaptation Framework for Lower-Limb Exoskeleton",
-        journal: "IEEE Transactions on Robotics, 40:4699-4718",
+        journal: "IEEE Transactions on Robotics",
         date: "Sep 2024",
         authors: "Yu Chen, Shu Miao, Gong Chen, Jing Ye, Chenglong Fu, Bin Liang, Shiji Song, Xiang Li",
         image: chen23HIL,
