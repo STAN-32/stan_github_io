@@ -105,7 +105,7 @@ export const FEATUREDPUBLICATIONS = [
         date: "Mar 2026",
         authors: "Yu Chen, Shu Miao, Chunyu Wu, Jingsong Mu, Bo OuYang, Xiang Li",
         image: chen2026semantic,
-        link: "https://scholar.google.com/citations?user=8ySqPzwAAAAJ&hl=zh-CN",
+        link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11456356",
     },
     {
         id: 2,
@@ -135,7 +135,7 @@ export const PUBLICATIONS = [
         date: "Mar 2026",
         authors: "Yu Chen, Shu Miao, Chunyu Wu, Jingsong Mu, Bo OuYang, Xiang Li",
         image: chen2026semantic,
-        link: "https://scholar.google.com/citations?user=8ySqPzwAAAAJ&hl=zh-CN",
+        link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11456356",
     },
     {
         id: 2,
