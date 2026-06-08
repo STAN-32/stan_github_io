@@ -38,7 +38,7 @@ export const SOCIAL_LINKS = [
 export const AWARDS = [
     {
         date: "Dec 2025",
-        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China Association for Science and Technology (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
+        content: "Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
     {
         date: "Dec 2025",
@@ -93,7 +93,7 @@ export const RESEARCH_EXPERIENCE = [
 export const NEWS = [
     {
         date: "Dec 2025",
-        content: "PhD Special Program of the Young Scientific and Technological Talent Promotion Project of the China (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
+        content: "Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
 ];
 
