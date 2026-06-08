@@ -1,0 +1,42 @@
+name: Deploy to GitHub Pages
+
+# Build the site and publish it to the gh-pages branch on every push to main,
+# so the live site at https://stan-32.github.io/stan_github_io/ updates automatically.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # allows a manual "Run workflow" from the Actions tab
+
+# Let the built-in GITHUB_TOKEN push the built site to the gh-pages branch.
+permissions:
+  contents: write
+
+# If you push twice in quick succession, cancel the older in-flight deploy.
+concurrency:
+  group: deploy-gh-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # matches the local toolchain the build is known to work on
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Build
+        run: npm run build # uses --openssl-legacy-provider via the package.json script
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
