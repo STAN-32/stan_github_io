@@ -32,6 +32,9 @@ jobs:
         run: npm ci || npm install
 
       - name: Build
+        # CI=false so CRA does not treat lint warnings as errors (matches the local build)
+        env:
+          CI: false
         run: npm run build # uses --openssl-legacy-provider via the package.json script
 
       - name: Deploy to gh-pages
