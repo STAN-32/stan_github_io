@@ -17,12 +17,6 @@
   height: auto;
 }
 
-/* Ensure the globe is responsive */
-#clustrmaps-widget canvas {
-  max-width: 100%;
-  height: auto !important;
-}
-
 /* Remove unused styles */
 .map-container,
 .mock-map,
