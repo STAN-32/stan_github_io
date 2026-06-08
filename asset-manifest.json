@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stan_github_io/static/css/main.d91afad1.chunk.css",
-    "main.js": "/stan_github_io/static/js/main.66e92097.chunk.js",
-    "main.js.map": "/stan_github_io/static/js/main.66e92097.chunk.js.map",
+    "main.css": "/stan_github_io/static/css/main.4380d30b.chunk.css",
+    "main.js": "/stan_github_io/static/js/main.dd5ab9df.chunk.js",
+    "main.js.map": "/stan_github_io/static/js/main.dd5ab9df.chunk.js.map",
     "runtime-main.js": "/stan_github_io/static/js/runtime-main.1fcd4e82.js",
     "runtime-main.js.map": "/stan_github_io/static/js/runtime-main.1fcd4e82.js.map",
     "static/js/2.d6ec4f31.chunk.js": "/stan_github_io/static/js/2.d6ec4f31.chunk.js",
     "static/js/2.d6ec4f31.chunk.js.map": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.map",
     "index.html": "/stan_github_io/index.html",
-    "precache-manifest.3ab1602a535f71fe565e7eab2c63549e.js": "/stan_github_io/precache-manifest.3ab1602a535f71fe565e7eab2c63549e.js",
+    "precache-manifest.4c6389251e33fc2727428ba4335c7676.js": "/stan_github_io/precache-manifest.4c6389251e33fc2727428ba4335c7676.js",
     "service-worker.js": "/stan_github_io/service-worker.js",
-    "static/css/main.d91afad1.chunk.css.map": "/stan_github_io/static/css/main.d91afad1.chunk.css.map",
+    "static/css/main.4380d30b.chunk.css.map": "/stan_github_io/static/css/main.4380d30b.chunk.css.map",
     "static/js/2.d6ec4f31.chunk.js.LICENSE.txt": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.LICENSE.txt",
     "static/media/chen2025upper.gif": "/stan_github_io/static/media/chen2025upper.96a61510.gif",
     "static/media/chen2026semantic.gif": "/stan_github_io/static/media/chen2026semantic.b80ba949.gif",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.1fcd4e82.js",
     "static/js/2.d6ec4f31.chunk.js",
-    "static/css/main.d91afad1.chunk.css",
-    "static/js/main.66e92097.chunk.js"
+    "static/css/main.4380d30b.chunk.css",
+    "static/js/main.dd5ab9df.chunk.js"
   ]
 }
