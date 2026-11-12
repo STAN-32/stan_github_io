@@ -219,5 +219,5 @@ I am a recipient of the <strong>Main Award of the 2026 ARTS Scholarship</strong>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Lower-Limb Exoskeleton</span> Assist with different wearers and tasks</li>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Upper-Limb Exoskeleton</span> Personalized rehabilitation.</li>
 </ul>
-<p>🔥 <span style="color: red; font-weight: bold;">I am on the job market and actively seeking postdoctoral positions</span> in human-robot collaboration, wearable robotics, and robot learning. Please feel free to <a href='mailto:chen-y22@mails.tsinghua.edu.cn'>contact me</a> if you think there might be a good fit!</p>
+<p>🔥 <span style="color: red; font-weight: bold;">I am on the job market and actively seeking postdoctoral positions starting in Fall 2027.</span> I am particularly interested in human-robot collaboration, wearable robotics, and robot learning. Please feel free to <a href='mailto:chen-y22@mails.tsinghua.edu.cn'>contact me</a> if you think there might be a good fit!</p>
 `
