@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stan_github_io/static/css/main.4380d30b.chunk.css",
-    "main.js": "/stan_github_io/static/js/main.33e0259b.chunk.js",
-    "main.js.map": "/stan_github_io/static/js/main.33e0259b.chunk.js.map",
+    "main.js": "/stan_github_io/static/js/main.8d9b1789.chunk.js",
+    "main.js.map": "/stan_github_io/static/js/main.8d9b1789.chunk.js.map",
     "runtime-main.js": "/stan_github_io/static/js/runtime-main.1fcd4e82.js",
     "runtime-main.js.map": "/stan_github_io/static/js/runtime-main.1fcd4e82.js.map",
     "static/js/2.d6ec4f31.chunk.js": "/stan_github_io/static/js/2.d6ec4f31.chunk.js",
     "static/js/2.d6ec4f31.chunk.js.map": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.map",
     "index.html": "/stan_github_io/index.html",
-    "precache-manifest.f387a231cf9d56803287525f5d39ca6d.js": "/stan_github_io/precache-manifest.f387a231cf9d56803287525f5d39ca6d.js",
+    "precache-manifest.c6119933982b262608643048b576529d.js": "/stan_github_io/precache-manifest.c6119933982b262608643048b576529d.js",
     "service-worker.js": "/stan_github_io/service-worker.js",
     "static/css/main.4380d30b.chunk.css.map": "/stan_github_io/static/css/main.4380d30b.chunk.css.map",
     "static/js/2.d6ec4f31.chunk.js.LICENSE.txt": "/stan_github_io/static/js/2.d6ec4f31.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.1fcd4e82.js",
     "static/js/2.d6ec4f31.chunk.js",
     "static/css/main.4380d30b.chunk.css",
-    "static/js/main.33e0259b.chunk.js"
+    "static/js/main.8d9b1789.chunk.js"
   ]
 }
