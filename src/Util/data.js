@@ -37,6 +37,10 @@ export const SOCIAL_LINKS = [
 
 export const AWARDS = [
     {
+        date: "Oct 2026",
+        content: "Main Award of the ARTS Scholarship at the 2026 Chinese Association of Automation Symposium on Autonomous Robots (<span style=\"color: red; font-weight: bold;\">one of only 5 recipients nationwide</span>, 中国自动化学会自主机器人技术研讨会奖学金<span style=\"color: red; font-weight: bold;\">主奖</span>)",
+    },
+    {
         date: "Dec 2025",
         content: "Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
     },
@@ -91,6 +95,10 @@ export const RESEARCH_EXPERIENCE = [
 
 
 export const NEWS = [
+    {
+        date: "Oct 2026",
+        content: "🏆 Honored to receive the <strong>Main Award of the ARTS Scholarship</strong> at the 2026 Chinese Association of Automation Symposium on Autonomous Robots (ARTS 2026, Beijing), <span style=\"color: red; font-weight: bold;\">one of only 5 recipients nationwide</span>!",
+    },
     {
         date: "Dec 2025",
         content: "Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST (<span style=\"color: red; font-weight: bold;\">Top 1%</span> in Tsinghua University)",
@@ -201,13 +209,15 @@ export const SERVICES = [
 ];
 
 export const ABOUT_TEXT = `
-<p>I am a fourth-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://thu-irml.com/' target='_blank' rel='noopener noreferrer'>Xiang Li</a>.
+<p>I am a <strong>fifth-year Ph.D. candidate</strong> in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://thu-irml.com/' target='_blank' rel='noopener noreferrer'>Xiang Li</a>.
 I earned my bachelor's degree in Automation from the School of Astronautics, Harbin Institute of Technology, where I was part of the HIT Robotics Team (HITCRT) and won the national third place in the Robocon 2020.
 In December 2024, I was a visiting student in Prof. <a href='https://cde.nus.edu.sg/bme/staff/dr-yuhy/' target='_blank' rel='noopener noreferrer'>Haoyong Yu</a>'s research group at the National University of Singapore. 
-From 12/2025 to 06/2026, I will be a visiting student in the Personal Robotics Lab (PRL) at Imperial College London, under the supervision of Prof. <a href='https://profiles.imperial.ac.uk/y.demiris' target='_blank' rel='noopener noreferrer'>Yiannis Demiris</a>.
+From 12/2025 to 06/2026, I was a visiting student in the Personal Robotics Lab (PRL) at Imperial College London, under the supervision of Prof. <a href='https://profiles.imperial.ac.uk/y.demiris' target='_blank' rel='noopener noreferrer'>Yiannis Demiris</a>.
+I am a recipient of the <strong>Main Award of the 2026 ARTS Scholarship</strong> from the Chinese Association of Automation Symposium on Autonomous Robots (<span style="color: red; font-weight: bold;">one of only 5 recipients nationwide</span>), and have been selected for the <strong>CAST Young S&T Talents Cultivation Project</strong> (Doctoral Student Program) and the <strong>NSFC Basic Research Program for Young Students</strong> (PhD Candidate).
 <p>My research primarily focuses on the development of safe, efficient, and user-friendly human-robot collaborative systems. My interests include:</p>
 <ul>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Lower-Limb Exoskeleton</span> Assist with different wearers and tasks</li>
     <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Upper-Limb Exoskeleton</span> Personalized rehabilitation.</li>
 </ul>
+<p>🔥 <span style="color: red; font-weight: bold;">I am on the job market and actively seeking postdoctoral positions starting in Fall 2027.</span> I am particularly interested in human-robot collaboration, wearable robotics, and robot learning. Please feel free to <a href='mailto:chen-y22@mails.tsinghua.edu.cn'>contact me</a> if you think there might be a good fit!</p>
 `
